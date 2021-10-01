@@ -1,0 +1,10 @@
+sa css wag mong pagsamahin lahat ex. footer, head, body, sections, mga components... mas better kung my mga css files sila para hndi mahirap basahin kpag dumadami yung codes..
+advantage nyn is di kana mg iiscroll kung nasan yung mga yon or gamit ka sass kung trip mo why?
+
+sa css sinasamahan yan ng prefix.. ung -webkit-, moz, etc. why kase kapag ni run yung project mo sa ibang browser and walang ganon magiiba yung mga layout kase
+hindi supported ng ibang browser yung ibang properties.... that's why gumagamit karamihan ng sass/scss para auto-generated ng mga prefix...
+
+kapag gumagawa ka ng styling sa css o sass/scss don't forget to use comment... ex. my card1 and card2 lagy mo ng comment si card1 ex. /* profile card */ tpos yung 
+card2 /* product card */ mas better na my comment para kapag binasa mo or kung sino yung styling mo alam na agd kung anong part ng output yon..
+
+tips ko na sayo... gamit kana ng scss/sass wla nmng pinagkaiba sa css yon para d kana mg preprefix, specificity etc... easy nlng sa pag code. 
